@@ -32,34 +32,6 @@ My current research focuses on detecting resource cleanup bugs in systems softwa
 
 Before joining Penn State, I worked as a software engineer at Samsung Electronics, where I developed Android software in production environments. My industry experience motivates my interest in practical security and reliability problems in real-world systems.
 
----
-
-layout: about
-title: about
-permalink: /
-subtitle: M.S. Student in Cybersecurity, Penn State University
-
-profile:
-align: right
-image: prof_pic.jpg
-image_circular: false
-more_info: > <p>M.S. Student in Cybersecurity</p> <p>Penn State University</p>
-
-selected_papers: false
-social: true
-
-announcements:
-enabled: false
-
-latest_posts:
-enabled: false
---------------
-
-I am an M.S. student in Cybersecurity at Penn State University. My research interests include systems security, software security, program analysis, and vulnerability discovery.
-
-My current research focuses on detecting resource cleanup bugs in systems software and 5G core network implementations. I also work on configuration-induced memory safety bugs in embedded firmware, with an emphasis on how compile-time configurations affect resource usage and software safety.
-
-Before joining Penn State, I worked as a software engineer at Samsung Electronics, where I developed Android software in production environments. My industry experience motivates my interest in practical security and reliability problems in real-world systems.
 
 ### Research Interests
 
