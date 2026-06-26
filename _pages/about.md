@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-  <p>M.S. Student in Cybersecurity</p>
-  <p>Penn State University</p>
+    <p>M.S. Student in Cybersecurity</p>
+    <p>Penn State University</p>
 
 selected_papers: false
 social: true # includes social icons at the bottom of the page
