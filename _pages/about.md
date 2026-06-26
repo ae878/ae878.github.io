@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Student in Cybersecurity, Penn State University
+subtitle: '<span class="profile-subtitle">M.S. Student in Cybersecurity, Penn State University</span>'
 
 profile:
   align: right
@@ -43,16 +43,24 @@ Before joining Penn State, I worked as a software engineer at Samsung Electronic
 
 ### Current Research
 
-**Resource Cleanup Bug Detection.**
+<div class="research-card">
+<strong>Resource Cleanup Bug Detection.</strong><br>
 I study bugs where logical resources are created but not properly cleaned up after error paths, failed transactions, or cross-component failures. This work focuses on systems software and 5G core network implementations.
+</div>
 
-**Configuration-Induced Memory Safety Bugs.**
+<div class="research-card">
+<strong>Configuration-Induced Memory Safety Bugs.</strong><br>
 I study how compile-time configurations affect stack usage and expose memory safety bugs in embedded firmware. This work aims to identify unsafe configuration combinations in constrained systems.
+</div>
 
 ### Selected Honors
 
-* Scholarship recipient, [Scholarship Name], 2026.
-* 4th Place, PyeongChang Olympic Software Contest, Ministry of Science, ICT and Future Planning, 2017.
+<div class="honor-card">
+<ul>
+  <li>Scholarship recipient, Scholarship Name, 2026.</li>
+  <li>4th Place, PyeongChang Olympic Software Contest, Ministry of Science, ICT and Future Planning, 2017.</li>
+</ul>
+</div>
 
 ### Background
 
