@@ -2,31 +2,89 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M.S. Student in Cybersecurity, Penn State University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+  <p>M.S. Student in Cybersecurity</p>
+  <p>Penn State University</p>
 
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an M.S. student in Cybersecurity at Penn State University. My research interests include systems security, software security, program analysis, and vulnerability discovery.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current research focuses on detecting resource cleanup bugs in systems software and 5G core network implementations. I also work on configuration-induced memory safety bugs in embedded firmware, with an emphasis on how compile-time configurations affect resource usage and software safety.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining Penn State, I worked as a software engineer at Samsung Electronics, where I developed Android software in production environments. My industry experience motivates my interest in practical security and reliability problems in real-world systems.
+
+---
+
+layout: about
+title: about
+permalink: /
+subtitle: M.S. Student in Cybersecurity, Penn State University
+
+profile:
+align: right
+image: prof_pic.jpg
+image_circular: false
+more_info: > <p>M.S. Student in Cybersecurity</p> <p>Penn State University</p>
+
+selected_papers: false
+social: true
+
+announcements:
+enabled: false
+
+latest_posts:
+enabled: false
+--------------
+
+I am an M.S. student in Cybersecurity at Penn State University. My research interests include systems security, software security, program analysis, and vulnerability discovery.
+
+My current research focuses on detecting resource cleanup bugs in systems software and 5G core network implementations. I also work on configuration-induced memory safety bugs in embedded firmware, with an emphasis on how compile-time configurations affect resource usage and software safety.
+
+Before joining Penn State, I worked as a software engineer at Samsung Electronics, where I developed Android software in production environments. My industry experience motivates my interest in practical security and reliability problems in real-world systems.
+
+### Research Interests
+
+* Systems security
+* Software security
+* Program analysis
+* Vulnerability discovery
+* Resource cleanup bug detection
+* 5G core network security
+* Embedded and firmware security
+
+### Current Research
+
+**Resource Cleanup Bug Detection.**
+I study bugs where logical resources are created but not properly cleaned up after error paths, failed transactions, or cross-component failures. This work focuses on systems software and 5G core network implementations.
+
+**Configuration-Induced Memory Safety Bugs.**
+I study how compile-time configurations affect stack usage and expose memory safety bugs in embedded firmware. This work aims to identify unsafe configuration combinations in constrained systems.
+
+### Selected Honors
+
+* Scholarship recipient, [Scholarship Name], 2026.
+* 4th Place, PyeongChang Olympic Software Contest, Ministry of Science, ICT and Future Planning, 2017.
+
+### Background
+
+Prior to my graduate studies, I worked as an Android software engineer at Samsung Electronics. I have experience in mobile software development, software security, and vulnerability analysis.
+
