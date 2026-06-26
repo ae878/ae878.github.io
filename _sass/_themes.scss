@@ -1,9 +1,42 @@
 :root {
-  --global-theme-color: #3f6f8e;
-  --global-theme-color-light: #eaf3f7;
-  --global-theme-color-dark: #2e526a;
-  --global-hover-color: #2e526a;
-  --global-footer-bg-color: #f8fafc;
+  --global-theme-color: #2f80a8;
+  --global-theme-color-light: #d7eaf3;
+  --global-theme-color-dark: #245f7d;
+  --global-hover-color: #245f7d;
+  --global-bg-color: #fbfdff;
+  --global-code-bg-color: #eef7fb;
+  --global-footer-bg-color: #f4fafd;
   --global-footer-text-color: #4a5568;
-  --global-footer-link-color: #3f6f8e;
+  --global-footer-link-color: #2f80a8;
+}
+
+h1,
+h2,
+h3 {
+  color: #245f7d;
+}
+
+.profile img {
+  border: 4px solid #eef7fb;
+  box-shadow: 0 8px 24px rgba(47, 128, 168, 0.18);
+}
+
+.research-card {
+  background: #f4fafd;
+  border-left: 4px solid #2f80a8;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0;
+}
+
+.research-card strong {
+  color: #245f7d;
+}
+
+.honor-card {
+  background: #ffffff;
+  border: 1px solid #d7eaf3;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0;
 }
