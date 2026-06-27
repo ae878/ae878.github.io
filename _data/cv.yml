@@ -1,189 +1,155 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+name: Ijae Kim
+label: M.S. Student in Cybersecurity
+email: [ijk5201@psu.edu](mailto:ijk5201@psu.edu)
+location: State College, PA, USA
+image: ""
+summary: M.S. student in Cybersecurity at Penn State University with research interests in systems security, software security, program analysis, vulnerability discovery, embedded and firmware security, and 5G core network security.
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+social_networks:
+- network: GitHub
+username: ae878
+- network: LinkedIn
+username: your-linkedin-username
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+sections:
+Education:
+- institution: The Pennsylvania State University
+location: State College, PA, USA
+area: Cybersecurity Analytics and Operations
+studyType: M.S.
+start_date: 2025-08
+end_date: 2027-05
+score: "GPA: 4.0/4.0"
+highlights:
+- Expected graduation: May 2027.
+- Research interests include systems security, software security, program analysis, and vulnerability discovery.
 
-  sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+```
+  - institution: Hanyang University
+    location: Seoul, Korea
+    area: Computer Science
+    studyType: B.S.
+    start_date: 2014-03
+    end_date: 2018-02
+    score: "GPA: 3.69/4.5"
+    highlights:
+      - Completed undergraduate study in computer science.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+Research:
+  - name: Resource Cleanup Bug Detection
+    summary: Research on detecting bugs where logical resources are created but not properly cleaned up after error paths, failed transactions, or cross-component failures.
+    highlights:
+      - Focuses on systems software, software security, and 5G core network implementations.
+      - Studies resource lifecycle mismatches beyond traditional memory leaks.
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+  - name: Configuration-Induced Memory Safety Bugs
+    summary: Research on configuration-induced stack overflow bugs in microcontroller firmware.
+    highlights:
+      - Studies how compile-time configurations affect stack usage and expose memory safety bugs.
+      - A related manuscript is currently under review at a highly selective security venue. Details are withheld during the review process.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+  - name: DIMM Level Verification Methodology for DRAM Custom DFT
+    summary: Poster presented at the Design Automation Conference.
+    highlights:
+      - Design Automation Conference, San Francisco, USA, Dec. 2021.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+Experience:
+  - company: Samsung Electronics
+    position: Software Engineer
+    location: Seoul, Korea
+    start_date: 2018-08
+    end_date: 2025-08
+    summary: Developed production software across Android, on-device AI, wearable sensing, and test automation projects.
+    highlights:
+      - Led development of an on-device fitness coaching solution using computer vision and wearable sensors.
+      - Designed Android modules for real-time pose estimation, motion recognition, and performance feedback.
+      - Developed an AI-driven fitness app integrating wearable data for exercise tracking and energy estimation.
+      - Optimized UX and data visualization pipelines for real-time performance insights.
+      - Built a cross-platform DRAM test automation tool for Linux and Windows integrating DIMM design workflows.
+      - Improved system validation efficiency and automated failure visualization.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+  - company: Naver Corporation
+    position: Backend Developer Intern
+    location: Gyeonggi-do, Korea
+    start_date: 2017-07
+    end_date: 2017-08
+    highlights:
+      - Implemented server APIs and optimized response latency for large-scale web services.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+Teaching:
+  - institution: The Pennsylvania State University
+    position: Instructional Assistant
+    location: State College, PA, USA
+    start_date: 2025-08
+    end_date: Present
+    summary: Performed teaching duties equivalent to a Teaching Assistant, including student support and instructional assistance.
+    highlights:
+      - CYBER 221: Overview of Information Security, Fall 2025.
+      - IST 256: Programming for the Web, Fall 2025.
+      - HCDD 340: HCD for Mobile Computing, Spring 2026.
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+Patents:
+  - title: Exercise Data Processing Method and Electronic Device Performing the Same
+    date: 2022
+    summary: KR App. No. 10-2022-0187795
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+  - title: Electronic Device Performing Video Synchronization and Operating Method Thereof
+    date: 2023
+    summary: KR App. No. 10-2023-0149294
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+  - title: Exercise Data Processing Method and Electronic Device Performing the Same
+    date: 2022
+    summary: KR App. No. 10-2022-0188736
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+Awards:
+  - title: 4th Place, PyeongChang Olympic Software Contest
+    date: 2017-11
+    awarder: Ministry of Science, ICT and Future Planning, Korea
+    summary: Awarded 4th place in a national software contest.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+Leadership and Service:
+  - organization: Graduate and Professional Student Association
+    position: College of IST Delegate, Advocacy and Diversity Committee
+    location: The Pennsylvania State University
+    start_date: 2025
+    end_date: Present
+    highlights:
+      - Represent graduate students in the College of Information Sciences and Technology.
+      - Support advocacy and diversity-related initiatives for international and underrepresented students.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+  - organization: Global Engagement Community
+    position: Member
+    location: The Pennsylvania State University
+    start_date: 2025
+    end_date: Present
+    highlights:
+      - Participate in cultural exchange activities by sharing Korean language and culture with local and international students.
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+  - organization: Habitat for Humanity
+    position: Volunteer
+    location: The Pennsylvania State University
+    start_date: 2025
+    end_date: Present
+    highlights:
+      - Volunteer in community service activities supporting housing-related needs for local residents and low-income families.
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+  - organization: HUHS
+    position: Programming Study Organizer and Volunteer
+    location: Hanyang University
+    start_date: 2015
+    end_date: 2017
+    highlights:
+      - Organized and led programming study sessions for fellow club members.
+      - Provided software-based volunteer support for local small business owners.
 
-      - name: English
-        summary: "Fluent"
+Skills:
+  - name: Programming Languages
+    keywords: Java, Kotlin, Python, C++
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+  - name: Frameworks and Tools
+    keywords: Android, Qt, TensorFlow Lite, Git, Linux
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+  - name: Research Areas
+    keywords: Systems Security, Software Security, Embedded Systems, Cybersecurity, On-device ML, Firmware Analysis, Fuzzing, 5G Core Network Security
+```
