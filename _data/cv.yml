@@ -1,162 +1,219 @@
 cv:
-name: "Ijae Kim"
-label: "M.S. Student in Cybersecurity"
-email: "[ijk5201@psu.edu](mailto:ijk5201@psu.edu)"
-location: "State College, PA, USA"
-image: ""
-summary: "M.S. student in Cybersecurity at Penn State University with research interests in systems security, software security, program analysis, vulnerability discovery, embedded and firmware security, and 5G core network security."
+  name: "Ijae Kim"
+  label: "M.S. Student in Cybersecurity"
+  email: "ijk5201@psu.edu"
+  location: "State College, PA, USA"
+  image: ""
+  summary: "M.S. student in Cybersecurity at Penn State University with interests in systems security, software security, program analysis, vulnerability discovery, embedded and firmware security, and 5G core network security."
 
-social_networks:
-  - network: "GitHub"
-    username: "ae878"
-  - network: "LinkedIn"
-    username: "your-linkedin-username"
+  social_networks:
+    - network: "GitHub"
+      username: "ae878"
+    - network: "LinkedIn"
+      username: "your-linkedin-username"
 
-sections:
-Education:
-  - institution: "The Pennsylvania State University"
-    location: "State College, PA, USA"
-    area: "Cybersecurity Analytics and Operations"
-    studyType: "M.S."
-    start_date: "2025-08"
-    end_date: "2027-05"
-    score: "GPA: 4.0/4.0"
-    highlights:
-    - "Expected graduation: May 2027."
-    - "Research interests include systems security, software security, program analysis, and vulnerability discovery."
+  sections:
+    Education:
+      - institution: "The Pennsylvania State University"
+        location: "State College, PA, USA"
+        area: "Cybersecurity Analytics and Operations"
+        studyType: "M.S."
+        start_date: "2025-08"
+        end_date: "2027-05"
+        score: "GPA: 4.0/4.0"
+        courses: ""
+        highlights:
+          - "Expected graduation, May 2027."
+          - "Research interests include systems security, software security, program analysis, and vulnerability discovery."
 
-  - institution: "Hanyang University"
-    location: "Seoul, Korea"
-    area: "Computer Science"
-    studyType: "B.S."
-    start_date: "2014-03"
-    end_date: "2018-02"
-    score: "GPA: 3.69/4.5"
-    highlights:
-      - "Completed undergraduate study in computer science."
+      - institution: "Hanyang University"
+        location: "Seoul, Korea"
+        area: "Computer Science"
+        studyType: "B.S."
+        start_date: "2014-03"
+        end_date: "2018-02"
+        score: "GPA: 3.69/4.5"
+        highlights:
+          - "Completed undergraduate study in computer science."
 
-Research:
-  - name: "Resource Cleanup Bug Detection"
-    summary: "Research on detecting bugs where logical resources are created but not properly cleaned up after error paths, failed transactions, or cross-component failures."
-    highlights:
-      - "Focuses on systems software, software security, and 5G core network implementations."
-      - "Studies resource lifecycle mismatches beyond traditional memory leaks."
+    Experience:
+      - company: "Samsung Electronics"
+        position: "Software Engineer"
+        location: "Seoul, Korea"
+        start_date: "2018-08"
+        end_date: "2025-08"
+        summary: "Developed production software across Android, on-device AI, wearable sensing, and test automation projects."
+        highlights:
+          - "Led development of an on-device fitness coaching solution using computer vision and wearable sensors."
+          - "Designed Android modules for real-time pose estimation, motion recognition, and performance feedback."
+          - "Developed an AI-driven fitness app integrating wearable data for exercise tracking and energy estimation."
+          - "Optimized UX and data visualization pipelines for real-time performance insights."
+          - "Built a cross-platform DRAM test automation tool for Linux and Windows integrating DIMM design workflows."
+          - "Improved system validation efficiency and automated failure visualization."
 
-  - name: "Configuration-Induced Memory Safety Bugs"
-    summary: "Research on configuration-induced stack overflow bugs in microcontroller firmware."
-    highlights:
-      - "Studies how compile-time configurations affect stack usage and expose memory safety bugs."
-      - "A related manuscript is currently under review at a highly selective security venue. Details are withheld during the review process."
+      - company: "Naver Corporation"
+        position: "Backend Developer Intern"
+        location: "Gyeonggi-do, Korea"
+        start_date: "2017-07"
+        end_date: "2017-08"
+        summary: "Backend development internship at a major South Korean internet and technology company."
+        highlights:
+          - "Implemented server APIs and optimized response latency for large-scale web services."
 
-  - name: "DIMM Level Verification Methodology for DRAM Custom DFT"
-    summary: "Poster presented at the Design Automation Conference."
-    highlights:
-      - "Design Automation Conference, San Francisco, USA, Dec. 2021."
+    Teaching:
+      - company: "The Pennsylvania State University"
+        position: "Instructional Assistant"
+        location: "State College, PA, USA"
+        start_date: "2025-08"
+        end_date: "present"
+        summary: "Performed teaching duties equivalent to a Teaching Assistant, including student support and instructional assistance."
+        highlights:
+          - "CYBER 221: Overview of Information Security, Fall 2025."
+          - "IST 256: Programming for the Web, Fall 2025."
+          - "HCDD 340: HCD for Mobile Computing, Spring 2026."
 
-Experience:
-  - company: "Samsung Electronics"
-    position: "Software Engineer"
-    location: "Seoul, Korea"
-    start_date: "2018-08"
-    end_date: "2025-08"
-    summary: "Developed production software across Android, on-device AI, wearable sensing, and test automation projects."
-    highlights:
-      - "Led development of an on-device fitness coaching solution using computer vision and wearable sensors."
-      - "Designed Android modules for real-time pose estimation, motion recognition, and performance feedback."
-      - "Developed an AI-driven fitness app integrating wearable data for exercise tracking and energy estimation."
-      - "Optimized UX and data visualization pipelines for real-time performance insights."
-      - "Built a cross-platform DRAM test automation tool for Linux and Windows integrating DIMM design workflows."
-      - "Improved system validation efficiency and automated failure visualization."
+    Publications:
+      - title: "Manuscript under review in systems and security"
+        authors:
+          - "Ijae Kim"
+          - "Collaborators"
+        publisher: "Highly selective systems and security venue"
+        releaseDate: "Under review"
+        summary: "Details are withheld during the review process."
 
-  - company: "Naver Corporation"
-    position: "Backend Developer Intern"
-    location: "Gyeonggi-do, Korea"
-    start_date: "2017-07"
-    end_date: "2017-08"
-    highlights:
-      - "Implemented server APIs and optimized response latency for large-scale web services."
+      - title: "DIMM Level Verification Methodology for DRAM Custom DFT"
+        authors:
+          - "SeaEun Park"
+          - "ByeongJun Bae"
+          - "SeoHa Yang"
+          - "Ijae Kim"
+          - "YounSik Park"
+          - "JungYun Choi"
+        publisher: "Design Automation Conference"
+        releaseDate: "2021-12"
+        summary: "Poster presented at the Design Automation Conference in San Francisco, USA."
 
-Teaching:
-  - institution: "The Pennsylvania State University"
-    position: "Instructional Assistant"
-    location: "State College, PA, USA"
-    start_date: "2025-08"
-    end_date: "present"
-    summary: "Performed teaching duties equivalent to a Teaching Assistant, including student support and instructional assistance."
-    highlights:
-      - "CYBER 221: Overview of Information Security, Fall 2025."
-      - "IST 256: Programming for the Web, Fall 2025."
-      - "HCDD 340: HCD for Mobile Computing, Spring 2026."
+    Projects:
+      - name: "Resource Cleanup Bug Detection"
+        summary: "Research on detecting bugs where logical resources are created but not properly cleaned up after error paths, failed transactions, or cross-component failures."
+        highlights:
+          - "Focuses on systems software, software security, and 5G core network implementations."
+          - "Studies resource lifecycle mismatches beyond traditional memory leaks."
+        start_date: "2025-08"
+        end_date: "present"
 
-Patents:
-  - title: "Exercise Data Processing Method and Electronic Device Performing the Same"
-    date: "2022"
-    summary: "KR App. No. 10-2022-0187795"
+      - name: "Configuration-Induced Memory Safety Bugs"
+        summary: "Research on configuration-induced stack overflow bugs in microcontroller firmware."
+        highlights:
+          - "Studies how compile-time configurations affect stack usage and expose memory safety bugs."
+          - "A related manuscript is currently under review at a highly selective security venue."
+        start_date: "2025-08"
+        end_date: "present"
 
-  - title: "Electronic Device Performing Video Synchronization and Operating Method Thereof"
-    date: "2023"
-    summary: "KR App. No. 10-2023-0149294"
+    Patents:
+      - title: "Exercise Data Processing Method and Electronic Device Performing the Same"
+        authors:
+          - "Ijae Kim"
+          - "Collaborators"
+        date: "2022"
+        awarder: "Korean Intellectual Property Office"
+        summary: "KR App. No. 10-2022-0187795"
 
-  - title: "Exercise Data Processing Method and Electronic Device Performing the Same"
-    date: "2022"
-    summary: "KR App. No. 10-2022-0188736"
+      - title: "Electronic Device Performing Video Synchronization and Operating Method Thereof"
+        authors:
+          - "Ijae Kim"
+          - "Collaborators"
+        date: "2023"
+        awarder: "Korean Intellectual Property Office"
+        summary: "KR App. No. 10-2023-0149294"
 
-Awards:
-  - title: "4th Place, PyeongChang Olympic Software Contest"
-    date: "2017-11"
-    awarder: "Ministry of Science, ICT and Future Planning, Korea"
-    summary: "Awarded 4th place in a national software contest."
+      - title: "Exercise Data Processing Method and Electronic Device Performing the Same"
+        authors:
+          - "Ijae Kim"
+          - "Collaborators"
+        date: "2022"
+        awarder: "Korean Intellectual Property Office"
+        summary: "KR App. No. 10-2022-0188736"
 
-Leadership and Service:
-  - organization: "The Pennsylvania State University"
-    position: "Research Mentor"
-    location: "State College, PA, USA"
-    start_date: "2026"
-    end_date: "present"
-    highlights:
-      - "Mentor a Korean undergraduate student in cybersecurity research and support the student's growth in a U.S. graduate research environment."
+    Awards:
+      - title: "4th Place, PyeongChang Olympic Software Contest"
+        authors:
+          - "Ministry of Science, ICT and Future Planning, Korea"
+        date: "2017-11"
+        awarder: "Ministry of Science, ICT and Future Planning, Korea"
+        summary: "Awarded 4th place in a national software contest."
 
-  - organization: "Graduate and Professional Student Association"
-    position: "College of IST Delegate, Advocacy and Diversity Committee"
-    location: "The Pennsylvania State University"
-    start_date: "2025"
-    end_date: "present"
-    highlights:
-      - "Represent graduate students in the College of Information Sciences and Technology."
-      - "Support advocacy and diversity-related initiatives for international and underrepresented students."
+    Volunteer:
+      - company: "Research Mentoring, The Pennsylvania State University"
+        position: "Research Mentor"
+        location: "State College, PA, USA"
+        start_date: "2026"
+        end_date: "present"
+        summary: "Mentor a Korean undergraduate student in cybersecurity research and support the student's growth in a U.S. graduate research environment."
+        highlights:
+          - "Provided research guidance and academic support in cybersecurity research."
 
-  - organization: "Global Engagement Community"
-    position: "Member"
-    location: "The Pennsylvania State University"
-    start_date: "2025"
-    end_date: "present"
-    highlights:
-      - "Participate in cultural exchange activities by sharing Korean language and culture with local and international students."
+      - company: "Graduate and Professional Student Association, The Pennsylvania State University"
+        position: "College of IST Delegate, Advocacy and Diversity Committee"
+        location: "State College, PA, USA"
+        start_date: "2025"
+        end_date: "present"
+        summary: "Represent graduate students in the College of Information Sciences and Technology and support advocacy and diversity-related initiatives."
+        highlights:
+          - "Supported initiatives for international and underrepresented graduate students."
 
-  - organization: "Habitat for Humanity"
-    position: "Volunteer"
-    location: "The Pennsylvania State University"
-    start_date: "2025"
-    end_date: "present"
-    highlights:
-      - "Volunteer in community service activities supporting housing-related needs for local residents and low-income families."
+      - company: "Global Engagement Community, The Pennsylvania State University"
+        position: "Member"
+        location: "State College, PA, USA"
+        start_date: "2025"
+        end_date: "present"
+        summary: "Participate in cultural exchange activities by sharing Korean language and culture with local and international students."
+        highlights:
+          - "Shared Korean language and culture with local and international students."
 
-  - organization: "HUHS"
-    position: "Programming Study Organizer and Volunteer"
-    location: "Hanyang University"
-    start_date: "2015"
-    end_date: "2017"
-    highlights:
-      - "Organized and led programming study sessions for fellow club members."
-      - "Provided software-based volunteer support for local small business owners."
+      - company: "Habitat for Humanity, The Pennsylvania State University"
+        position: "Volunteer"
+        location: "State College, PA, USA"
+        start_date: "2025"
+        end_date: "present"
+        summary: "Volunteer in community service activities supporting housing-related needs for local residents and low-income families."
+        highlights:
+          - "Supported local community service activities."
 
-Skills:
-  - name: "Programming Languages"
-    keywords: "Java, Kotlin, Python, C++"
+      - company: "HUHS, Hanyang University"
+        position: "Programming Study Organizer and Volunteer"
+        location: "Seoul, Korea"
+        start_date: "2015"
+        end_date: "2017"
+        summary: "Organized programming study sessions and provided software-based volunteer support for local small business owners."
+        highlights:
+          - "Led study sessions on programming fundamentals and problem-solving."
+          - "Supported local small business owners through practical software-related assistance."
 
-  - name: "Frameworks and Tools"
-    keywords: "Android, Qt, TensorFlow Lite, Git, Linux"
+    Skills:
+      - name: "Programming Languages"
+        level: "Advanced"
+        icon: "fa-solid fa-code"
+        keywords: "Java, Kotlin, Python, C++"
 
-  - name: "Research Areas"
-    keywords: "Systems Security, Software Security, Embedded Systems, Cybersecurity, On-device ML, Firmware Analysis, Fuzzing, 5G Core Network Security"
+      - name: "Frameworks and Tools"
+        level: "Advanced"
+        icon: "fa-solid fa-screwdriver-wrench"
+        keywords: "Android, Qt, TensorFlow Lite, Git, Linux"
 
+      - name: "Research Areas"
+        level: "Research"
+        icon: "fa-solid fa-magnifying-glass"
+        keywords: "Systems Security, Software Security, Embedded Systems, Cybersecurity, On-device ML, Firmware Analysis, Fuzzing, 5G Core Network Security"
+
+    Languages:
+      - name: "Korean"
+        summary: "Native speaker"
+
+      - name: "English"
+        summary: "Professional working proficiency"
+
+    Interests:
+      - name: "Systems and Security Research"
+        icon: "fa-solid fa-tag"
+        keywords: "Systems Security, Software Security, Program Analysis, Vulnerability Discovery, Embedded and Firmware Security, 5G Core Network Security"
