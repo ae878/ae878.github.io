@@ -1,6 +1,5 @@
 cv:
   name: "Ijae Kim"
-  label: "M.S. Student in Cybersecurity"
   email: "ijk5201@psu.edu"
   location: "State College, PA, USA"
   image: ""
@@ -15,7 +14,7 @@ cv:
   sections:
     Education:
       - institution: "The Pennsylvania State University"
-        location: "State College, PA, USA"
+        location: "University Park, PA, USA"
         area: "Cybersecurity Analytics and Operations"
         studyType: "M.S."
         start_date: "2025-08"
